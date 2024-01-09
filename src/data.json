@@ -1,0 +1,11 @@
+{
+	"name": "Marco Carpona",
+	"birthday": "26-12-1995",
+	"city": "Trieste",
+	"state": "Italy",
+	"email": "marco.carpona@gmail.com",
+	"phone": {
+		"prefix": "+39",
+		"number": "345 6032158"
+	}
+}

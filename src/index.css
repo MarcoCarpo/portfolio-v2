@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --black: #0e0e0e;
+        --white: #fefefe;
+        --primary: #ee6352;
+    }
+
+    @font-face {
+        font-family: 'PT Sans';
+        src:
+            url('PTSans-Regular.woff2') format('woff2'),
+            url('PTSans-Regular.woff') format('woff'),
+            url('PTSans-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'PT Sans';
+        src:
+            url('PTSans-Bold.woff2') format('woff2'),
+            url('PTSans-Bold.woff') format('woff'),
+            url('PTSans-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Nunito';
+        src:
+            url('Nunito-Regular.woff2') format('woff2'),
+            url('Nunito-Regular.woff') format('woff'),
+            url('Nunito-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Nunito';
+        src:
+            url('Nunito-Black.woff2') format('woff2'),
+            url('Nunito-Black.woff') format('woff'),
+            url('Nunito-Black.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+}
