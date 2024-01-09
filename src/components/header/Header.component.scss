@@ -1,0 +1,23 @@
+.nav {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: -100vw;
+	background-color: var(--primary-hover);
+	z-index: 1;
+	display: flex;
+	transition: left 0.3s ease-in-out;
+	color: var(--white);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	&--active {
+		left: 0;
+	}
+}
+
+.hamburger-react {
+	z-index: 2 !important;
+}

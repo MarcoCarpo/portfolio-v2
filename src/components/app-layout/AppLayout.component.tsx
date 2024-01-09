@@ -1,10 +1,14 @@
 import { PropsWithChildren } from 'react'
+import { Header } from '..'
 
 const PageLayout: React.FC<PropsWithChildren> = ({ children }) => {
     return (
-        <div className="container mx-auto min-h-screen font-sans">
-            {children}
-        </div>
+        <>
+            <Header />
+            <div className="container mx-auto min-h-screen font-sans">
+                {children}
+            </div>
+        </>
     )
 }
 

@@ -7,7 +7,9 @@ interface Props extends PropsWithChildren {
 const Title: FC<Props> = ({ children }) => {
     return (
         <div className="text-4xl font-bold flex justify-center">
-            &lt; {children} /&gt;
+            <span className="text-primary">&lt;&nbsp;</span>
+            {children}
+            <span className="text-primary">&nbsp;/&gt;</span>
         </div>
     )
 }

@@ -3,9 +3,9 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         colors: {
-            black: 'rgb(var(--black) / 1)',
-            white: 'rgb(var(--white) / 1)',
-            primary: 'rgb(var(--primary) / 1)',
+            black: 'var(--black)',
+            white: 'var(--white)',
+            primary: 'var(--primary)',
         },
         container: {
             padding: '2rem',
