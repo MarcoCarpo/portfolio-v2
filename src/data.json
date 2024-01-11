@@ -7,5 +7,10 @@
 	"phone": {
 		"prefix": "+39",
 		"number": "345 6032158"
+	},
+	"role": "Frontend developer",
+	"home": {
+		"description": "I am a developer from Trieste, Italy. I am currently working at Dotcom S.r.l. as frontend developer.",
+		"download": "Download my CV"
 	}
 }

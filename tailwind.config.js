@@ -7,12 +7,12 @@ export default {
             white: 'var(--white)',
             primary: 'var(--primary)',
         },
-        container: {
-            padding: '2rem',
+        borderWidth: {
+            10: '10px',
         },
         fontFamily: {
-            sans: ['PT Sans', 'sans-serif'],
-            serif: ['Nunito', 'serif'],
+            sans: ['Nunito', 'sans-serif'],
+            serif: ['PT Sans', 'serif'],
         },
         extend: {},
     },
