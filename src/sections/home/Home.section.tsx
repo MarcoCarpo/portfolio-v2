@@ -10,7 +10,8 @@ const Home = () => {
             <Title type="h1">{data.name}</Title>
             <p className="text-2xl my-1">{data.role}</p>
             <span className="text-xl font-black">
-                <span>React</span> / <span>Angular</span>
+                <span className="text-[#61dbfb]">React</span> /{' '}
+                <span className="text-[#c3002f]">Angular</span>
             </span>
 
             <div className="w-full flex flex-col items-center relative justify-center gap-10 bg-primary mt-52">

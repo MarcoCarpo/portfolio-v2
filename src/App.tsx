@@ -1,10 +1,11 @@
 import { AppLayout } from './components'
-import { Home } from './sections'
+import { AboutMe, Home } from './sections'
 
 const App = () => {
     return (
         <AppLayout>
             <Home />
+            <AboutMe />
         </AppLayout>
     )
 }
